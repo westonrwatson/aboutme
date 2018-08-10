@@ -1,0 +1,279 @@
+/* custom stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Alegreya|Londrina+Sketch');
+
+html, body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.text-center {
+text-align: center;
+}
+
+ul {
+list-style: none;
+}
+#hero {
+
+background-size: cover;
+background-position: center;
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+#background-img {
+  background: url('https://static.wixstatic.com/media/2465a22a212e41cd96a05e3e3fe5adc4.jpg/v1/fill/w_1919,h_925,al_c,q_85,usm_0.66_1.00_0.01/2465a22a212e41cd96a05e3e3fe5adc4.webp') no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #FAF4E6;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  filter: blur(3px);
+  transform: scale(1.1);
+}
+
+#hero > #hero-text {
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#hero > #hero-text > h1 {
+color: #FAF4E6;
+font-family: 'Alegreya', sans-serif;
+font-size: 150px;
+text-transform: uppercase;
+}
+/* Icon Row */
+#iconrow {
+padding: 60px 0;
+}
+
+/* Portfolio */
+#Portfolio-Pics > #JPL, #Eagle, #Swim {
+display: inline-block;
+float: left;
+width: 50%;
+}
+
+#Portfolio-Pics > #JPL {
+background: url('../img/JPL-trip.png');
+background-size: cover;
+background-position: center;
+height: 450px;
+}
+
+#Portfolio-Pics > #Eagle {
+background: url('../img/Eagle-Scout.png');
+background-size: cover;
+background-position: center;
+height: 450px;
+}
+
+#Portfolio-Pics > #Swim {
+background: url('../img/Swim-wyl.png');
+background-size: cover;
+background-position: center;
+height: 725px;
+width: 851;
+}
+
+#Portfolio-Pics > #EXPO {
+background: url('../img/EXPO-no.png');
+background-size: fill;
+background-position: center;
+height: 1400px;
+width: 450;
+}
+
+/*#pics .overlay {
+background: rgba(0,0,0,0.5);
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+/* Custom Navigation */
+.c-navigation {
+z-index: 99999999;
+width: 0;
+height: 0;
+}
+
+.c-navigation #links {
+list-style: none;
+padding: 50px 70px;
+}
+
+/* Custom Visible Class */
+.c-navigation > #links.visible {
+background: rgba(0, 0, 0, 0.7);
+height: 100%;
+width: 100%;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.c-navigation > #links:hover {
+color: #EDC385;
+
+}
+
+.c-navigation > #links > li {
+color: #FAF4E6;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+margin: -24px;
+}
+
+.c-navigation > #links.visible > li {
+color: #FAF4E6;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+margin: -24px;
+}
+
+.c-navigation #links.visible {
+list-style: none;
+padding: 50px 70px;
+}
+
+a {
+color: #faf4e7;
+text-decoration: none;
+}
+a:hover {
+color: #EDC385;
+text-decoration: none;
+}
+.YouTube:hover {
+color: #dc3545;
+text-decoration: none;
+}
+.name:hover {
+color: #C0D8DB;
+text-decoration: none;
+}
+
+
+
+/* Footer */
+
+.navbar {
+padding: 0rem 00rem;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 0px;
+
+}
+.fa-twitter:before {
+color: #48a0ff;
+}
+
+.fa-instagram:before {
+display: inline-block;
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 10px;
+color: #fff;
+font-size: 36px;
+line-height: 40px;
+vertical-align: top;
+background: #d6249f;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.fa-youtube:before {
+color: #dc3545;
+}
+
+
+.fab {
+color: #FAF4E6;
+}
+.navbar-light .navbar-brand {
+color: #FAF4E6;
+}
+.bg-light {
+background-color: #f8f9fa00!important;
+}
+
+
+
+
+
+#close {
+display: none;
+}
+
+#hamburger {
+display: none;
+}
+/* Media Queries */
+
+@media(max-width: 1266px) {
+#hero > #hero-text > h1 {
+font-size: 100px;
+}
+}
+@media(max-width: 980px) {
+#hero > #hero-text > h1 {
+font-size: 75px;
+}
+}
+@media(max-width: 767px) {
+
+/* Mobile Nav */
+
+#hamburger {
+display: inherit;
+}
+
+#hamburger, #close {
+color: #FAF4E6;
+position: absolute;
+top: 0;
+right: 0;
+padding: 20px 25px;
+scale: 1
+z-index: 9999999;
+}
+#close {
+display: none;
+}
+
+.c-navigation #links {
+display: none;
+padding: 0;
+
+}
+
+#hero > #hero-text > h1 {
+font-size: 55px;
+}
+}
+@media(max-width: 546px) {
+#hero > #hero-text > h1 {
+font-size: 43px;
+}
+}

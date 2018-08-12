@@ -66,7 +66,8 @@ color: #48a0ff;
       font-size: 50px;
   }
 }
-@media(max-width: 767px) {
+
+@media(max-width: 567px) {
 
   /* Mobile Nav */
 
@@ -80,7 +81,7 @@ color: #48a0ff;
       top: 0;
       right: 0;
       padding: 20px 25px;
-      scale: 1
+      scale: 120%;
       z-index: 9999999;
 }
   #close {
@@ -97,6 +98,7 @@ color: #48a0ff;
       font-size: 40px;
   }
 }
+
 @media(max-width: 546px) {
   #hero > #hero-text > h1 {
     font-size: 30px;

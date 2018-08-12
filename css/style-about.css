@@ -153,8 +153,9 @@ margin: -24px;
 color: #FAF4E6;
 text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
-font-size: 40px;
-margin: -24px;
+font-size: 30px;
+margin: -14px;
+padding-top: 50px;
 }
 
 .c-navigation #links.visible {
@@ -166,6 +167,7 @@ a {
 color: #0c5460;
 text-decoration: none;
 }
+
 a:hover {
 color: #6c757d;
 text-decoration: none;

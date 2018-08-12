@@ -46,31 +46,43 @@ animation: fadein 1s;
 }
 
 img {
+  z-index: 99999;
   outline: 0.5rem solid #0c5460;
   border-radius: 5px;
   padding: -1rem;
   outline-offset: -1.1rem;
-  filter: brightness(100%) saturate(80%) contrast(90%) drop-shadow(0px 2px 26px);
+  filter: brightness(100%) saturate(80%) contrast(90%) drop-shadow(0px 0px 10px);
 }
 
 p {
+border-radius: 5px;
+background: #faf4e7;
+padding: 10px 10px;
+padding-left: 200px;
+-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 font-family: 'Pompiere',cursive;
 font-size: 20px;
 color: #0c5460;
 font-weight: bolder;
-z-index: 99999;
+z-index: 9999;
 position: relative;
 display: table;
 margin-left: auto;
 margin-right: auto;
 text-align: left;
-width: 430px; /* whatever width you want */
-left: 240px;
-bottom: 113px;
+width: 630px; /* whatever width you want */
+left: 120px;
+bottom: 119px;
 }
+
+.background-area {
+  background-color: #faf4e7;
+}
+
 .text-center {
 text-align: center;
-
 }
 
 ul {
@@ -142,12 +154,13 @@ color: #EDC385;
 }
 
 .c-navigation > #links > li {
-color: #FAF4E6;
-text-transform: uppercase;
-font-family: 'Roboto', sans-serif;
-font-size: 40px;
-margin: -24px;
+  color: #FAF4E6;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  margin: -29px;
 }
+
 
 .c-navigation > #links.visible > li {
 color: #FAF4E6;

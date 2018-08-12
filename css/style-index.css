@@ -106,15 +106,15 @@ ul {
   color: #FAF4E6;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  margin: -24px;
+  font-size: 45px;
+  margin: -29px;
 }
 
 .c-navigation > #links.visible > li {
   color: #FAF4E6;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   margin: -24px;
 }
 
@@ -136,6 +136,6 @@ a:hover {
   text-decoration: none;
 }
 .name:hover {
-  color: #C0D8DB;
+  color: #EDC385;
   text-decoration: none;
 }

@@ -159,18 +159,19 @@ color: #EDC385;
 }
 
 .c-navigation > #links > li {
-color: #FAF4E6;
-text-transform: uppercase;
-font-family: 'Roboto', sans-serif;
-font-size: 40px;
-margin: -24px;
+  color: #FAF4E6;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  margin: -29px;
 }
+
 
 .c-navigation > #links.visible > li {
 color: #FAF4E6;
 text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
-font-size: 40px;
+font-size: 45px;
 margin: -24px;
 }
 

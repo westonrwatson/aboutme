@@ -54,7 +54,7 @@ color: #48a0ff;
       font-size: 80px;
   }
 }
-@media(max-width: 1385px) {
+@media(max-width: 1573px) {
   #hero > #hero-text > h1 {
       font-size: 75px;
   }

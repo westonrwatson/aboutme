@@ -122,7 +122,9 @@ ul {
   list-style: none;
   padding: 50px 70px;
 }
-
+.active {
+    color: #EDC385;
+}
 a {
   color: #faf4e7;
     text-decoration: none;
@@ -131,8 +133,12 @@ a:hover {
   color: #EDC385;
     text-decoration: none;
 }
-.YouTube:hover {
+.YouTube {
   color: #dc3545;
+  text-decoration: none;
+}
+.YouTube:hover {
+  color: #faf4e7;
   text-decoration: none;
 }
 .name:hover {

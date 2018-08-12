@@ -176,6 +176,10 @@ list-style: none;
 padding: 50px 70px;
 }
 
+.active {
+    color: #6c757d;
+}
+
 a {
 color: #0c5460;
 text-decoration: none;
@@ -185,13 +189,13 @@ a:hover {
 color: #6c757d;
 text-decoration: none;
 }
-.YouTube:hover {
-color: #dc3545;
-text-decoration: none;
-}
 .YouTube {
-color: #faf4e7;
-text-decoration: none;
+  color: #dc3545;
+  text-decoration: none;
+}
+.YouTube:hover {
+  color: #faf4e7;
+  text-decoration: none;
 }
 .name:hover {
 color: #6c757d;

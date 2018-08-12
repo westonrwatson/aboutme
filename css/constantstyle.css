@@ -49,10 +49,14 @@ color: #48a0ff;
     display: none;
 }
 /* Media Queries */
-
-@media(max-width: 1366px) {
+@media(max-width: 1485px) {
   #hero > #hero-text > h1 {
       font-size: 80px;
+  }
+}
+@media(max-width: 1385px) {
+  #hero > #hero-text > h1 {
+      font-size: 75px;
   }
 }
 @media(max-width: 1180px) {
